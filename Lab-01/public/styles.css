@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  }
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+line-height: 1.6;
+color: #1f2937;
+background: #f4f7fb;
+}
+
+/* Header */
+header {
+background: #0b3d91;
+color: white;
+padding: 24px;
+}
+
+header h1 {
+margin: 0 0 16px;
+}
+
+/* Navigation */
+nav ul {
+display: flex;
+gap: 20px;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+font-weight: 600;
+}
+
+/* Main content */
+main {
+max-width: 900px;
+margin: 0 auto;
+padding: 40px 20px;
+}
+
+section {
+background: white;
+padding: 24px;
+margin-bottom: 24px;
+border-radius: 10px;
+}
+
+h2 {
+margin-top: 0;
+}
+
+/* Informative SVG */
+figure {
+display: flex;
+align-items: center;
+gap: 12px;
+margin: 16px 0;
+}
+
+/* Table */
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+caption {
+text-align: left;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+th,
+td {
+border: 1px solid #cbd5e1;
+padding: 12px;
+text-align: left;
+}
+
+th {
+background: #e8eef8;
+}
+
+/* Form */
+form {
+display: grid;
+gap: 18px;
+}
+
+label {
+display: block;
+margin-bottom: 6px;
+font-weight: 600;
+}
+
+input,
+textarea,
+button {
+font: inherit;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+width: 100%;
+padding: 10px;
+border: 1px solid #64748b;
+border-radius: 6px;
+}
+
+textarea {
+min-height: 120px;
+resize: vertical;
+}
+
+/* Radio button group */
+fieldset {
+border: 1px solid #64748b;
+padding: 16px;
+border-radius: 6px;
+}
+
+fieldset label {
+font-weight: normal;
+margin: 8px 0;
+}
+
+/* Submit button */
+button {
+width: fit-content;
+padding: 10px 18px;
+border: 0;
+border-radius: 6px;
+background: #0b3d91;
+color: white;
+cursor: pointer;
+}
+
+/* Visible keyboard focus */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+outline: 3px solid #0b5fff;
+outline-offset: 2px;
+}
+
+/* Skip link */
+.skip-link {
+position: absolute;
+left: 10px;
+top: -100px;
+padding: 10px 14px;
+background: white;
+color: #0b3d91;
+border: 2px solid #0b3d91;
+z-index: 1000;
+}
+
+.skip-link:focus-visible {
+top: 10px;
+}
+
+/* Footer */
+footer {
+padding: 24px;
+text-align: center;
+background: #e8eef8;
+}
+
+address {
+font-style: normal;
+}
